@@ -12,6 +12,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://jeffersonstreetsoundmuseum.com/images/social-preview.png">
   <title>Jefferson Street Sound Museum | Nashville’s Original Music Row</title>
+  <link rel="icon" href="images/jssm-logo.webp">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
@@ -19,23 +20,37 @@
   <a class="skip-link" href="#story">Skip to the story</a>
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="Jefferson Street Sound Museum home"><span>JSSM</span><small>Nashville · Tennessee</small></a>
-    <div class="header-actions"><a class="visit-link" href="#visit">Visit</a><button class="menu-button" aria-expanded="false" aria-controls="museum-menu"><i aria-hidden="true"></i> Explore</button></div>
+    <div class="header-actions"><a class="visit-link" href="visit.html">Visit</a><button class="menu-button" aria-expanded="false" aria-controls="museum-menu"><i aria-hidden="true"></i> Explore</button></div>
   </header>
 
   <div id="museum-menu" class="menu-drawer" aria-hidden="true">
     <div class="menu-top"><span>On the record</span><button class="menu-close" aria-label="Close menu">Close ×</button></div>
-    <nav aria-label="Main navigation"><a href="#story"><span>01</span> The Story</a><a href="#legacy"><span>02</span> The Legacy</a><a href="#community"><span>03</span> Community</a><a href="#visit"><span>04</span> Plan a Visit</a></nav>
+    <nav class="record-menu" aria-label="Main navigation">
+      <a class="record-link" href="index.html"><span>Home</span><small>Side A</small></a>
+      <a class="record-link" href="museum.html"><span>Museum</span><small>01</small></a>
+      <a class="record-link" href="legacy.html"><span>Legacy</span><small>02</small></a>
+      <a class="record-link" href="community.html"><span>Community</span><small>03</small></a>
+      <a class="record-link" href="visit.html"><span>Visit</span><small>04</small></a>
+      <a class="record-link" href="events.html"><span>Events</span><small>Calendar</small></a>
+      <a class="record-link" href="founders-letter.html"><span>Letter</span><small>Monthly</small></a>
+    </nav>
     <div class="menu-footer">2004 Jefferson Street · Nashville, Tennessee</div>
   </div>
 
   <main>
-    <section class="hero" id="top">
-      <div class="hero-photo" aria-hidden="true"></div><div class="hero-wash" aria-hidden="true"></div>
-      <div class="hero-copy"><p class="eyebrow">North Nashville · Since 2011</p><h1><span>Where the street</span><em>still sings.</em></h1><p class="intro">Step inside the story of Nashville’s Original Music Row—told through the people, places and sounds that made Jefferson Street legendary.</p><a class="ticket-button" href="https://www.jeffersonstreetsound.com/visit">Book a museum tour <span>↗</span></a></div>
-      <div class="hero-seal" aria-hidden="true"><b>THE</b><strong>ORIGINAL</strong><b>MUSIC ROW</b></div><div class="scroll-cue">Scroll to listen <span></span></div>
+    <section class="hero poster-hero" id="top">
+      <img class="front-poster" src="images/social-preview.png" alt="Jefferson Street Sound Museum — Nashville’s Original Music Row">
+      <div class="front-actions" aria-label="Quick links">
+        <a class="mini-record" href="#story"><span>Enter</span><small>The Museum</small></a>
+        <a class="mini-record brass" href="visit.html"><span>Visit</span><small>Plan a Tour</small></a>
+        <a class="mini-record red" href="https://www.jeffersonstreetsound.com/donate"><span>Give</span><small>Keep It Spinning</small></a>
+      </div>
+      <div class="scroll-cue poster-cue">Scroll to enter <span></span></div>
     </section>
 
     <section class="marquee" aria-label="Featured artists"><div><span>Jimi Hendrix <i>✦</i> Etta James <i>✦</i> Little Richard <i>✦</i> Jackie Shane <i>✦</i> Ray Charles <i>✦</i> Marion James <i>✦</i> Ike &amp; Tina Turner <i>✦</i> DeFord Bailey <i>✦</i> Jimi Hendrix <i>✦</i> Etta James <i>✦</i> Little Richard <i>✦</i> Jackie Shane <i>✦</i> Ray Charles <i>✦</i> Marion James <i>✦</i> Ike &amp; Tina Turner <i>✦</i> DeFord Bailey <i>✦</i></span></div></section>
+
+    <section class="news-grooves paper"><div data-reveal><div class="section-tag">Now playing</div><h2>What’s happening<br><em>on Jefferson Street.</em></h2><p>Follow museum events and read Lorenzo Washington’s monthly note from the founder’s desk.</p></div><div class="news-records" data-reveal><a class="mini-record" href="events.html"><span>Events</span><small>Calendar</small></a><a class="mini-record brass" href="founders-letter.html"><span>Letter</span><small>August 2026</small></a></div></section>
 
     <section class="story paper" id="story"><div class="section-tag" data-reveal>01 / The story</div><div class="story-grid"><div data-reveal><p class="kicker">Before Broadway had neon, Jefferson Street had soul.</p><h2>Nashville’s history has a <em>backbeat.</em></h2></div><div class="story-copy" data-reveal><p>From the 1940s through the 1970s, Jefferson Street was a vital center of Black music, business and culture. Its clubs welcomed artists who would change American music forever.</p><p>Founder and curator Lorenzo Washington created the Jefferson Street Sound Museum to keep that story visible, audible and alive.</p><a href="https://www.jeffersonstreetsound.com/jssm">Discover the museum <span>→</span></a></div></div><figure class="archival-photo" data-reveal><img src="images/museum-founder.webp" alt="Inside Jefferson Street Sound Museum with founder and curator Lorenzo Washington"><figcaption><span>From the collection</span><b>A living room for living history</b></figcaption></figure></section>
 
@@ -44,9 +59,9 @@
       <article data-reveal><div class="record-dot" aria-hidden="true"></div><span>1950s</span><h3>The Original Music Row</h3><p>Jefferson Street becomes an essential stop for touring Black artists and a proving ground for Nashville talent.</p></article>
       <article data-reveal><div class="record-dot" aria-hidden="true"></div><span>1960s</span><h3>Music meets movement</h3><p>The neighborhood’s stages and gathering places stand beside a community helping reshape the Civil Rights era.</p></article>
       <article data-reveal><div class="record-dot" aria-hidden="true"></div><span>Today</span><h3>The record keeps turning</h3><p>The Museum preserves artifacts, amplifies firsthand stories and welcomes a new generation into the legacy.</p></article>
-    </div></section>
+    </div><a class="section-record-link" href="legacy.html"><span>Play the full story</span><small>Legacy →</small></a></section>
 
-    <section class="community paper" id="community"><div class="community-photo" data-reveal><img src="images/students.webp" alt="Students visiting Jefferson Street Sound Museum"><div class="photo-stamp">Future<br>Ambassadors</div></div><div class="community-copy" data-reveal><div class="section-tag">03 / Community</div><p class="kicker">History is not behind us.</p><h2>Pass it on.</h2><p>The Museum welcomes students and visitors from around the world, connecting firsthand stories with education, creativity and neighborhood pride.</p><div class="community-actions"><a href="https://www.jeffersonstreetsound.com/visit">Bring your group <span>↗</span></a><a href="https://www.jeffersonstreetsound.com/donate">Support the legacy <span>↗</span></a></div></div></section>
+    <section class="community paper" id="community"><div class="community-photo" data-reveal><img src="images/students.webp" alt="Students visiting Jefferson Street Sound Museum"><div class="photo-stamp">Future<br>Ambassadors</div></div><div class="community-copy" data-reveal><div class="section-tag">03 / Community</div><p class="kicker">History is not behind us.</p><h2>Pass it on.</h2><p>The Museum welcomes students and visitors from around the world, connecting firsthand stories with education, creativity and neighborhood pride.</p><div class="community-actions"><a href="community.html">Meet the community <span>→</span></a><a href="https://www.jeffersonstreetsound.com/donate">Support the legacy <span>↗</span></a></div></div></section>
 
     <section class="visit" id="visit"><div class="visit-image" aria-hidden="true"></div><div class="visit-card" data-reveal><div class="section-tag light">04 / Plan a visit</div><h2>Come hear<br>the whole story.</h2><div class="visit-details"><div><span>Address</span><p>2004 Jefferson Street<br>Nashville, TN 37208</p></div><div><span>Hours</span><p>Saturday · 11am–4pm<br>Tue–Thu · By appointment</p></div></div><a class="ticket-button inverse" href="https://www.jeffersonstreetsound.com/visit">Book your tour <span>↗</span></a><a class="map-link" href="https://maps.google.com/?q=2004+Jefferson+Street+Nashville+TN+37208">Open in maps →</a></div></section>
   </main>
