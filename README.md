@@ -1,4 +1,4 @@
-# Jefferson Street Sound Museum — Concept 04
+# Jefferson Street Sound Museum — Concept 05
 
 A multi-page, GitHub Pages-ready redesign inspired by historic Jefferson Street, archival print, neighborhood record shops, and the museum’s living collection.
 
@@ -19,6 +19,8 @@ Open `index.html` locally or serve this folder with any static web server.
 - A floating record follows the visitor after scrolling, opening the museum menu while keeping a Home shortcut close by.
 - The homepage Enter record spins, rises and fades with scroll while the poster and archival texture move at a slower depth.
 - Desktop visitors get responsive hover lift, tilt, photo depth and a warm light-and-shadow wash that follows the pointer and gently ebbs with scrolling.
+- The homepage keeps its place while Museum, Legacy, Community, Visit, Events and the Founder’s Letter open in accessible vintage page panels.
+- A prominent Next Event feature and readable monthly calendar keep the upcoming Saturday museum date visible on the homepage and Events page.
 - Museum, Legacy, Community, Visit, Events, and Founder’s Letter each have a dedicated page.
 - Lorenzo Washington’s full portrait is shown without cropping.
 - Lorenzo’s achievements are highlighted with links to supporting sources.
