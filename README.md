@@ -1,4 +1,4 @@
-# Jefferson Street Sound Museum — Concept 08
+# Jefferson Street Sound Museum — Concept 09
 
 A multi-page, GitHub Pages-ready redesign inspired by historic Jefferson Street, archival print, neighborhood record shops, and the museum’s living collection.
 
@@ -24,6 +24,7 @@ Open `index.html` locally or serve this folder with any static web server.
 - The Founder’s Letter is now one of the four record links on the opening screen.
 - Every record-style control has a rotating vinyl surface while its wording stays upright and readable; motion stops for visitors who prefer reduced motion.
 - Every font across the site now uses a minimum 18pt reading size for older visitors, including navigation, record labels, calendars, buttons and footer details.
+- Tour availability spells out Tuesday, Wednesday, and Thursday instead of using a shortened day range.
 - The “Nashville’s history has a backbeat” feature now places Lorenzo Washington’s image beside the headline within the same desktop view.
 - SYMOR is consistently introduced as “Start your month off right.”
 - Museum, Legacy, Community, Visit, Events, and Founder’s Letter each have a dedicated page.
